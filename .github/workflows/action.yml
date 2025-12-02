@@ -25,6 +25,6 @@ jobs:
       run: |
         pytest -v
 
-    - name: Run unittest tests
+    - name: Run unittest test
       run: |
-        python -m unittest discover -s tests -p "test_*unittest.py"
+        python -m unittest discover -s test -p "test_*unittest.py"
